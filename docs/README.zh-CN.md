@@ -23,7 +23,7 @@ https://<github-user>.github.io/<repo-name>
 这个仓库对应的 GitHub Pages 基础地址应为：
 
 ```text
-https://gezimao.github.io/Plugins/docs
+https://gezimao.github.io/Plugins
 ```
 
 下面两个文件现在已经按这个地址填好：
