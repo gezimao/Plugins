@@ -1,0 +1,36 @@
+[
+  {
+    "Author": "goat, Maple, gezimao",
+    "Name": "Fancy Loading Screens",
+    "Description": "This plugin shows the destination zone's concept art while loading.\nNOTE: ONLY LOOKS RIGHT ON 16:9 SCREENS! The concept art is not any bigger, and we can't expand/fix it. Sorry!",
+    "Punchline": "Shows the destination zone's concept art while loading",
+    "InternalName": "Dalamud.LoadingImage",
+    "AssemblyVersion": "1.0.0.18",
+    "RepoUrl": "https://github.com/MapleHinata/Dalamud.LoadingImage",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "IconUrl": "__BASE_URL__/plugins/Dalamud.LoadingImage/icon.png",
+    "DownloadLinkInstall": "__BASE_URL__/plugins/Dalamud.LoadingImage/latest.zip",
+    "DownloadLinkUpdate": "__BASE_URL__/plugins/Dalamud.LoadingImage/latest.zip",
+    "LastUpdate": "1780802734"
+  },
+  {
+    "Author": "Drakansoul, gezimao",
+    "Name": "DisPlace Plugin",
+    "Description": "Automatically save & load interior and exterior house layouts. Copy other housing layouts. Import/export layouts from the MakePlace program.",
+    "Punchline": "Automatically save & load furniture layouts in your house. Copy layouts from other houses.",
+    "InternalName": "DisPlacePlugin",
+    "AssemblyVersion": "7.5.1.0",
+    "RepoUrl": "https://github.com/Drakansoul/DisPlaced",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "IconUrl": "__BASE_URL__/plugins/DisPlacePlugin/icon.png",
+    "DownloadLinkInstall": "__BASE_URL__/plugins/DisPlacePlugin/latest.zip",
+    "DownloadLinkUpdate": "__BASE_URL__/plugins/DisPlacePlugin/latest.zip",
+    "LastUpdate": "1780802734"
+  }
+]

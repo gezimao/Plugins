@@ -1,0 +1,10 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local temp
+*.tmp
+*.log
+
+# Keep published artifacts tracked.
