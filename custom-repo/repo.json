@@ -11,9 +11,9 @@
     "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "IconUrl": "__BASE_URL__/plugins/Dalamud.LoadingImage/icon.png",
-    "DownloadLinkInstall": "__BASE_URL__/plugins/Dalamud.LoadingImage/latest.zip",
-    "DownloadLinkUpdate": "__BASE_URL__/plugins/Dalamud.LoadingImage/latest.zip",
+    "IconUrl": "https://gezimao.github.io/Plugins/plugins/Dalamud.LoadingImage/icon.png",
+    "DownloadLinkInstall": "https://gezimao.github.io/Plugins/plugins/Dalamud.LoadingImage/latest.zip",
+    "DownloadLinkUpdate": "https://gezimao.github.io/Plugins/plugins/Dalamud.LoadingImage/latest.zip",
     "LastUpdate": "1780802734"
   },
   {
@@ -28,9 +28,9 @@
     "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "IconUrl": "__BASE_URL__/plugins/DisPlacePlugin/icon.png",
-    "DownloadLinkInstall": "__BASE_URL__/plugins/DisPlacePlugin/latest.zip",
-    "DownloadLinkUpdate": "__BASE_URL__/plugins/DisPlacePlugin/latest.zip",
+    "IconUrl": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/icon.png",
+    "DownloadLinkInstall": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/latest.zip",
+    "DownloadLinkUpdate": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/latest.zip",
     "LastUpdate": "1780802734"
   }
 ]

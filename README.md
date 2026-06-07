@@ -14,16 +14,16 @@ https://<github-user>.github.io/<repo-name>/repo.json
 
 ## Before first push
 
-Replace `__BASE_URL__` in these files with your final GitHub Pages base URL:
+GitHub Pages base URL for this repository:
+
+```text
+https://gezimao.github.io/Plugins
+```
+
+The following files already use that base URL:
 
 - `docs/repo.json`
 - `custom-repo/repo.json`
-
-Example:
-
-```text
-https://gezimao.github.io/dalamud-custom-repo
-```
 
 ## Included plugins
 

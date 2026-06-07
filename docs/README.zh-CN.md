@@ -20,18 +20,16 @@ https://<github-user>.github.io/<repo-name>
 
 ## 发布前要改的内容
 
-把下面两个文件中的 `__BASE_URL__` 替换成你的真实站点地址：
+这个仓库对应的 GitHub Pages 基础地址应为：
+
+```text
+https://gezimao.github.io/Plugins
+```
+
+下面两个文件现在已经按这个地址填好：
 
 - `docs/repo.json`
 - `custom-repo/repo.json`
-
-例如：
-
-```text
-https://gezimao.github.io/dalamud-repo
-```
-
-替换完成后重新提交推送。
 
 ## Dalamud 里填写什么
 
