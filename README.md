@@ -17,7 +17,7 @@ https://<github-user>.github.io/<repo-name>/repo.json
 GitHub Pages base URL for this repository:
 
 ```text
-https://gezimao.github.io/Plugins
+https://gezimao.github.io/Plugins/docs
 ```
 
 The following files already use that base URL:
