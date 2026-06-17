@@ -22,7 +22,7 @@
     "Description": "Automatically save & load interior and exterior house layouts. Copy other housing layouts. Import/export layouts from the MakePlace program.",
     "Punchline": "Automatically save & load furniture layouts in your house. Copy layouts from other houses.",
     "InternalName": "DisPlacePlugin",
-    "AssemblyVersion": "7.5.1.0",
+    "AssemblyVersion": "7.5.2.0",
     "RepoUrl": "https://github.com/Drakansoul/DisPlaced",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -31,6 +31,6 @@
     "IconUrl": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/icon.png",
     "DownloadLinkInstall": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/latest.zip",
     "DownloadLinkUpdate": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/latest.zip",
-    "LastUpdate": "1780802734"
+    "LastUpdate": "1781688996"
   }
 ]
