@@ -1,0 +1,105 @@
+DisPlace 更新发布流程
+====================
+
+1. 修改插件版本号
+
+打开：
+D:\project\DisPlace_tmp\DisPlacePlugin\DisPlacePlugin.csproj
+
+修改这一行：
+<PluginVersion>7.5.2</PluginVersion>
+
+例如下次改成：
+<PluginVersion>7.5.3</PluginVersion>
+
+说明：
+这个值会生成插件包里的 AssemblyVersion。Dalamud 主要靠 AssemblyVersion 判断是否有更新。
+
+
+2. 重新打包
+
+在 PowerShell 执行：
+
+cd D:\project\DisPlace_tmp
+$env:DALAMUD_HOME='C:\Users\admin\AppData\Roaming\XIVLauncherCN\addon\Hooks\dev'
+dotnet build .\DisPlacePlugin.sln -c Release
+
+打包完成后检查：
+D:\project\DisPlace_tmp\bin\DisPlacePlugin\DisPlacePlugin.json
+
+确认里面的：
+"AssemblyVersion": "7.5.3.0"
+
+然后确认新包在：
+D:\project\DisPlace_tmp\bin\DisPlacePlugin\latest.zip
+
+
+3. 复制 latest.zip 到插件仓库
+
+执行：
+
+Copy-Item D:\project\DisPlace_tmp\bin\DisPlacePlugin\latest.zip D:\project\Dalamud.CustomRepo\docs\plugins\DisPlacePlugin\latest.zip -Force
+Copy-Item D:\project\DisPlace_tmp\bin\DisPlacePlugin\latest.zip D:\project\Dalamud.CustomRepo\custom-repo\plugins\DisPlacePlugin\latest.zip -Force
+
+说明：
+GitHub Pages 实际使用的是 docs\plugins\DisPlacePlugin\latest.zip。
+custom-repo 目录只是备份/模板，也一起同步，避免以后混乱。
+
+
+4. 更新 repo.json
+
+打开这两个文件：
+D:\project\Dalamud.CustomRepo\docs\repo.json
+D:\project\Dalamud.CustomRepo\custom-repo\repo.json
+
+找到 DisPlacePlugin 那一段，修改：
+"AssemblyVersion": "7.5.2.0"
+
+例如改成：
+"AssemblyVersion": "7.5.3.0"
+
+同时修改 LastUpdate。PowerShell 获取当前时间戳：
+
+[DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
+
+把结果填到：
+"LastUpdate": "这里填时间戳"
+
+
+5. 提交并推送插件仓库
+
+执行：
+
+cd D:\project\Dalamud.CustomRepo
+git status
+git add docs\repo.json custom-repo\repo.json docs\plugins\DisPlacePlugin\latest.zip custom-repo\plugins\DisPlacePlugin\latest.zip
+git commit -m "Update DisPlacePlugin to 7.5.3"
+git push
+
+
+6. 验证线上结果
+
+打开：
+https://gezimao.github.io/Plugins/repo.json
+
+确认 DisPlacePlugin 的 AssemblyVersion 已经变成新版本。
+
+下载包地址：
+https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/latest.zip
+
+
+如果只是偷偷覆盖包、不想让 Dalamud 提示已有用户更新
+====================================================
+
+可以不改版本号，也不改 repo.json，只复制 latest.zip 后提交：
+
+cd D:\project\Dalamud.CustomRepo
+Copy-Item D:\project\DisPlace_tmp\bin\DisPlacePlugin\latest.zip D:\project\Dalamud.CustomRepo\docs\plugins\DisPlacePlugin\latest.zip -Force
+Copy-Item D:\project\DisPlace_tmp\bin\DisPlacePlugin\latest.zip D:\project\Dalamud.CustomRepo\custom-repo\plugins\DisPlacePlugin\latest.zip -Force
+git add docs\plugins\DisPlacePlugin\latest.zip custom-repo\plugins\DisPlacePlugin\latest.zip
+git commit -m "Refresh DisPlacePlugin package"
+git push
+
+注意：
+这种方式只有新安装或手动重装的人会拿到新包。
+已经安装同版本的用户不会收到更新提示。
