@@ -29,3 +29,4 @@ The following files already use that base URL:
 
 - Fancy Loading Screens
 - DisPlace Plugin
+- 小抄

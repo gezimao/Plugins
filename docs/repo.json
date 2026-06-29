@@ -32,5 +32,22 @@
     "DownloadLinkInstall": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/latest.zip",
     "DownloadLinkUpdate": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/latest.zip",
     "LastUpdate": "1782179959"
+  },
+  {
+    "Author": "gezimao",
+    "Name": "小抄",
+    "Description": "一个简易卫月小抄插件。使用 /note 打开编辑器，可新增多条小抄并在屏幕悬浮窗中显示，支持缩放、自动换行、透明度、宽度调整和按地图自动打开。",
+    "Punchline": "在屏幕上显示可编辑的小抄。",
+    "InternalName": "NotePlugin",
+    "AssemblyVersion": "0.0.0.1",
+    "RepoUrl": "https://github.com/gezimao/notePlugin",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "IconUrl": "https://gezimao.github.io/Plugins/plugins/NotePlugin/icon.png",
+    "DownloadLinkInstall": "https://gezimao.github.io/Plugins/plugins/NotePlugin/latest.zip",
+    "DownloadLinkUpdate": "https://gezimao.github.io/Plugins/plugins/NotePlugin/latest.zip",
+    "LastUpdate": "1782728442"
   }
 ]
