@@ -22,7 +22,7 @@
     "Description": "Automatically save & load interior and exterior house layouts. Copy other housing layouts. Import/export layouts from the MakePlace program.",
     "Punchline": "Automatically save & load furniture layouts in your house. Copy layouts from other houses.",
     "InternalName": "DisPlacePlugin",
-    "AssemblyVersion": "7.5.4.0",
+    "AssemblyVersion": "7.5.5.0",
     "RepoUrl": "https://github.com/Drakansoul/DisPlaced",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -31,7 +31,7 @@
     "IconUrl": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/icon.png",
     "DownloadLinkInstall": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/latest.zip",
     "DownloadLinkUpdate": "https://gezimao.github.io/Plugins/plugins/DisPlacePlugin/latest.zip",
-    "LastUpdate": "1785257556"
+    "LastUpdate": "1788866074"
   },
   {
     "Author": "gezimao",
@@ -49,5 +49,21 @@
     "DownloadLinkInstall": "https://gezimao.github.io/Plugins/plugins/NotePlugin/latest.zip",
     "DownloadLinkUpdate": "https://gezimao.github.io/Plugins/plugins/NotePlugin/latest.zip",
     "LastUpdate": "1782728442"
+  },
+  {
+    "Author": "gezimao",
+    "Name": "InvulnerableMode",
+    "Description": "gezimao的工具集",
+    "Punchline": "gezimao的工具集",
+    "InternalName": "Invulnerable",
+    "AssemblyVersion": "0.0.0.1",
+    "RepoUrl": "https://github.com/gezimao/Plugins",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://gezimao.github.io/Plugins/plugins/Invulnerable/latest.zip",
+    "DownloadLinkUpdate": "https://gezimao.github.io/Plugins/plugins/Invulnerable/latest.zip",
+    "LastUpdate": "1788866074"
   }
 ]
