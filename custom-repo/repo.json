@@ -53,10 +53,10 @@
   {
     "Author": "gezimao",
     "Name": "InvulnerableMode",
-    "Description": "gezimao的工具集",
-    "Punchline": "gezimao的工具集",
+    "Description": "/invuln 查看配置页面了解详情",
+    "Punchline": "/invuln 查看配置页面了解详情",
     "InternalName": "Invulnerable",
-    "AssemblyVersion": "0.0.0.1",
+    "AssemblyVersion": "1.0.0.1",
     "RepoUrl": "https://github.com/gezimao/Plugins",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -64,6 +64,6 @@
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://gezimao.github.io/Plugins/plugins/Invulnerable/latest.zip",
     "DownloadLinkUpdate": "https://gezimao.github.io/Plugins/plugins/Invulnerable/latest.zip",
-    "LastUpdate": "1788866074"
+    "LastUpdate": "1788934155"
   }
 ]
