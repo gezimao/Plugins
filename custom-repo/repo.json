@@ -56,7 +56,7 @@
     "Description": "/invuln 查看配置页面了解详情",
     "Punchline": "/invuln 查看配置页面了解详情",
     "InternalName": "Invulnerable",
-    "AssemblyVersion": "1.0.1.0",
+    "AssemblyVersion": "1.0.2.0",
     "RepoUrl": "https://github.com/gezimao/Plugins",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -64,6 +64,6 @@
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://gezimao.github.io/Plugins/plugins/Invulnerable/latest.zip",
     "DownloadLinkUpdate": "https://gezimao.github.io/Plugins/plugins/Invulnerable/latest.zip",
-    "LastUpdate": "1789043063"
+    "LastUpdate": "1789230064"
   }
 ]
